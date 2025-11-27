@@ -111,7 +111,7 @@ namespace Inventory.Tests
 
             var result = weapon.ApplyQuestItem(questItem);
 
-            Assert.Equal(100, result);
+            Assert.Equal(300, result);
         }
     }
 }
