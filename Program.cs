@@ -8,8 +8,8 @@ namespace Inventory
         {
             var inv = Inventory.Instance;
 
-            var sword = inv.CreateDefaultWeapon("Excalibur").WithDamage(2500);
-            var shield = inv.CreateDefaultDefense("Aegis").WithDefense(1500).WithState(90);
+            var sword = inv.CreateDefaultWeapon("Excalibur").WithDamage(900);
+            var shield = inv.CreateDefaultDefense("Aegis").WithDefense(500).WithState(90);
             var potion = inv.CreateDefaultPotion("Health Potion").WithAmount(50);
             var glyph = inv.CreateDefaultQuestItem("Glyph of Power").WithDefenseUpgradeLevel(200).WithWeaponUpgradeLevel(0);
 
